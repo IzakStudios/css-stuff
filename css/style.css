@@ -1,0 +1,22 @@
+body {
+    background: rgba(180, 184, 255, 0.5);
+    background: linear-gradient(
+        30deg,
+
+        rgba(180, 184, 255, 0.5) 0%,
+        rgba(140, 140, 255, 0.5) 35%,
+        rgba(235, 211, 255, 0.5) 100%
+    );
+}
+
+.panel {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 128);
+    border-radius: 2em;
+    left: 50%;
+    top: 50%;
+    width: 65vh;
+    height: 90vh;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 2vh 0 rgba(0, 0, 0, 0.35);
+}
